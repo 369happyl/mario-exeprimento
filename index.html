@@ -43,7 +43,16 @@
     .jump {
       animation: jump 1s ease-out;
     }
-
+  @media (max-width: 768px) {
+  .pipe {
+    width: 40px;
+    height: 60px;
+  }
+  .mario { 
+    width: 109px;
+    height: 100px;
+  }
+  }
     @keyframes pipe-animation {
       from {
         right: -80px;
